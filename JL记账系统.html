@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>JL记账系统</title>
+  <link rel="stylesheet" href="./iconfont/iconfont.css">
+  <link rel="stylesheet" href="css/index.css" />
+
+
+
+
+</head>
+
+<body>
+  <h1><span>JL</span>记账系统</h1>
+  <form class="info" autocomplete="off">
+    <input type="text" class="uname" name="uname" placeholder="交易对象" />
+    <input type="text" class="money" name="money" placeholder="交易金额" />
+    <select name="way" class="way">
+      <option value="收入">收入</option>
+      <option value="支出">支出</option>
+    </select>
+    <span>交易时间:</span>
+    <input type="date" class="date" name="date" />
+    <input type="time" class="time" name="time" />
+    <input type="text" class="details" name="details" placeholder="备注" />
+    <button class="add">
+      <i class="iconfont icon-tianjia"></i>添加
+    </button>
+  </form>
+
+  <div class="title">
+    <form class="info2" autocomplete="off">
+      <button class="add">查找：</button>
+      <select name="findway" class="findway">
+        <option value="按交易号">按交易号</option>
+        <option value="按交易对象">按交易对象</option>
+        <option value="按交易金额">按交易金额</option>
+        <option value="按交易方式">按交易方式</option>
+        <option value="按备注">按备注</option>
+        <option value="按时间">按时间</option>
+      </select>
+      <input type="text" class="find" name="find" />
+    </form>
+    <div>共有明细<span>0</span>条</div>
+    <div class="clearall">清空所有记录</div>
+
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>交易号</th>
+        <th>交易对象</th>
+        <th>交易金额</th>
+        <th>收入/支出</th>
+        <th>备注</th>
+        <th>交易时间</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+
+
+  </table>
+
+  <div class="footer">
+    <div>统计结果：</div>
+    <div>共收入<span class="in">0</span>元</div>
+    <div>共支出<span class="out">0</span>元</div>
+  </div>
+
+  <script src="./js/js.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #721c24;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin: 20px 0;
+
+}
+
+h1 span {
+  color: skyblue;
+}
+
+.title {
+  width: 933px;
+  height: 50px;
+  line-height: 50px;
+  padding-right: 15px;
+  /* border: 1px solid #ebebeb; */
+  margin: 10px auto;
+  /* background-color: #f2f2f2; */
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title div {
+  height: 40px;
+  line-height: 40px;
+  border-radius: 10px;
+  background-color: #e0f3f8;
+  padding: 0 10px;
+}
+
+.title .clearall {
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.title span {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  margin: -3px 5px 0;
+  text-align: center;
+  line-height: 19px;
+  color: #f26934;
+  font-weight: 700;
+
+}
+
+table {
+  margin: 0 auto;
+  width: 950px;
+  border-collapse: collapse;
+  color: #3c3637;
+}
+
+th {
+  padding: 10px;
+  background: #f2f2f2;
+  font-size: 18px;
+  text-align: left;
+}
+
+td,
+th {
+  text-align: center;
+  border: 1px solid #ebebeb;
+  padding: 15px;
+}
+
+td {
+
+  color: #666;
+  font-size: 16px;
+
+}
+
+tbody tr {
+  background: #fff;
+}
+
+tbody tr:hover {
+  background: #fbfafa;
+}
+
+tbody a {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  background-color: #f26934;
+}
+
+.info {
+  width: 900px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.info input,
+.info select {
+  width: 100px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #ebebeb;
+  padding-left: 5px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+.info button {
+  width: 70px;
+  height: 30px;
+  background-color: #5dbfd8;
+  outline: none;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.info button:hover {
+  background-color: #52abc1;
+}
+
+.info span {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.info .date {
+  font-size: 14px;
+}
+
+.info .time {
+  margin-right: 20px;
+}
+
+
+.info2 select,
+.info2 input {
+  width: 150px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #ebebeb;
+  padding-left: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+.info2 button {
+  width: 70px;
+  height: 38px;
+  background-color: #5dbfd8;
+  outline: none;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.info2 button:hover {
+  background-color: #52abc1;
+}
+
+.info2 .find {
+  margin-right: 300px;
+}
+
+.footer {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 950px;
+  height: 60px;
+  border-collapse: collapse;
+  color: #3c3637;
+  background-color: #f2f2f2;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer div {
+  height: 40px;
+  line-height: 40px;
+  border-radius: 10px;
+  color: #3c3637;
+  font-size: 18px;
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+.footer div:last-child {
+  margin-right: 20px;
+}
+
+.footer span {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  margin: -3px 5px 0;
+  text-align: center;
+  line-height: 19px;
+  color: #f26934;
+  font-weight: 700;
+
+}
