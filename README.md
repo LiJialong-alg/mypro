@@ -59,7 +59,7 @@
 
 1. 克隆本仓库：
    ```bash
-   git clone https://github.com/LiJialong-alg/mypro.git
+   git clone https://github.com/LiJialong-alg/Accounting-System.git
    ```
 
 2. 直接打开 `JL记账系统.html` 文件在浏览器中使用
